@@ -14915,7 +14915,7 @@ input[type=text] {
   }
 
   .grid-carousel {
-    height: 296px;
+    height: auto!important;
     margin: 10px 4%;
     position: static;
     width: 92%
