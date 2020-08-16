@@ -17192,6 +17192,11 @@ input[type=text] {
     -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
+  
+  .grid-carousel .two-by-five .grid-two-by-five a {
+    width: auto!important;
+    height: 296px!important;
+}
 
   .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
     background: none;
