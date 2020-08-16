@@ -1070,10 +1070,13 @@ h3 {
 }
 
 .grid-carousel {
-  position: static;
-  margin: 20px 2% 0;
-  width: 96%;
-  height: 320px
+    position: static;
+    /* margin: 20px 2% 0; */
+    /* width: 96%; */
+    /* height: 320px; */
+    background: white!important;
+    height: 296px!important;
+    padding-bottom: 1rem;
 }
 
 .grid-carousel a {
@@ -1154,7 +1157,7 @@ h3 {
 }
 
 .grid-carousel .jcarousel-skin-tango .jcarousel-item-horizontal {
-  margin-right: 20px
+  margin-right: 0px!important;
 }
 
 .grid-carousel a span.thumbnail-image {
@@ -1358,7 +1361,8 @@ h3 {
 }
 
 .grid .jcarousel-skin-tango .jcarousel-container-horizontal {
-  position: static !important
+  position: static !important;
+  padding: 0.5rem!important;
 }
 
 .two-col {
