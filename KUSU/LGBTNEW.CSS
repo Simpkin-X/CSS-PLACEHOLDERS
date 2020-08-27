@@ -2684,7 +2684,8 @@ h3 {
   font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 28px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  margin-top:0px!important;
 }
 
 .content .row .content-wrap h4 {
