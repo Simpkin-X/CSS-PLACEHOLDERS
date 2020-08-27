@@ -7042,8 +7042,8 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
 }
 
 .slider .uc-slider-wrapper .uc-rslides {
-  background: url(https://d2wcds7obmglv2.cloudfront.net/assets/onevoice_default/images/slider-shadow-9eeee300d84f5d26d11ebc97e5d25819b832ce43316f7e4e46c0a0bd07cf9bb9.png) no-repeat scroll bottom center transparent;
-  padding-bottom: 20px
+  background: none!important;
+  padding-bottom: 0px!important;
 }
 
 .slider .uc-slider-wrapper .uc-slider-banner {
@@ -7084,7 +7084,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
   margin: auto auto !important;
   margin-top: 5px !important;
   z-index: 9;
-  margin-bottom: 50px !important
+  margin-bottom: 0px !important;
 }
 
 .slider .uc-slider-wrapper ul.centered-btns_tabs li.jcarousel-item {
