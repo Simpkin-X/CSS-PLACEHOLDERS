@@ -22,24 +22,9 @@
 }
 
 #main-navigation .top-menu-name-wrapper>span.has-link>a {
-  color: white !important;
+  color: #3b1e70 !important;
 }
 
-.header #union-logo {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-  background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/268399/original/KU_LGBT_2021_black.png')
-}
-
-.header #union-logo h1 {
-  max-height: 90px;
-  opacity: 0;
-  max-width: 220px;
-  text-align: center;
-  margin: auto;
-  background-image: url('https://nusdigital.s3-eu-west-1.amazonaws.com/document/documents/43839/641f6ea34d4c3cab9febf7a5e730248e/UnionKingstonStudents-Land-RGB-Purple.png')
-}
 
 .social-icons {
   display: none;
@@ -112,7 +97,7 @@ img:after {
 
 .menu, .header, .top, .top-union {
   width: 100%;
-  background: transparent;
+  background: #3b1e70;
 }
 
 .header-wrap, .menu-wrap, .content {
@@ -475,7 +460,7 @@ html body {
   padding: 0;
   font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
-  background-color: #3b1e70
+  background-color: #cec1d70
 }
 
 .menu.sticky {
@@ -516,7 +501,7 @@ html body {
 }
 
 .menu ul li span.no-link {
-  color: #ffffff;
+  color: #3b1e70;
   padding: 15px 30px 15px 10px;
   font-size: 16px
 }
