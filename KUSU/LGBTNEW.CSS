@@ -452,6 +452,10 @@ html body {
   background-position: 4px -27px;
   top: 5px
 }
+.nav-wrap {
+  text-align: center!important
+}
+
 
 .menu {
   min-height: 24px;
@@ -476,11 +480,11 @@ html body {
 }
 
 .menu ul li {
- float: none!important;
- justify-content: center!important;
- diplay: inline-flex!important
+    float: none!important;
+    justify-content: center!important;
+    display: inline-flex!important;
+    text-align: left;
 }
-
 .menu ul li a {
   color: #3b1e70!important;
   padding: 15px 15px;
