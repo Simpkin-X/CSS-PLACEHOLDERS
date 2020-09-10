@@ -163,8 +163,6 @@ html body {
 #union-logo {
   display: block;
   float: left;
-  width: calc(100vw/10);
-  height: calc(100vh/5);
   margin: 35px 35px 35px 0px;
 }
 
@@ -460,7 +458,7 @@ html body {
   padding: 0;
   font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
-  background-color: #cec1d70
+  background-color: #cec1d7!important
 }
 
 .menu.sticky {
@@ -477,11 +475,18 @@ html body {
   color: #ffffff
 }
 
+.menu ul li {
+ float: none!important;
+ justify-content: center!important;
+ diplay: inline-flex!important
+}
+
 .menu ul li a {
-  color: #ffffff;
+  color: #3b1e70!important;
   padding: 15px 15px;
   font-size: 16px
 }
+
 
 .menu ul li span {
   padding: 15px 30px 15px 15px;
