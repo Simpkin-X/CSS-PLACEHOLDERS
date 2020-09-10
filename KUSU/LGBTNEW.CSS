@@ -452,10 +452,11 @@ html body {
   background-position: 4px -27px;
   top: 5px
 }
+@media screen (min-width: 1270px) {
 .nav-wrap {
   text-align: center!important
+  }
 }
-
 
 .menu {
   min-height: 24px;
@@ -479,11 +480,13 @@ html body {
   color: #ffffff
 }
 
+@media screen (min-width: 1270px) {
 .menu ul li {
     float: none!important;
     justify-content: center!important;
     display: inline-flex!important;
     text-align: left;
+  }
 }
 .menu ul li a {
   color: #3b1e70!important;
