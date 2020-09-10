@@ -16863,7 +16863,7 @@ input[type=text] {
   overflow: hidden;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 20px 0 20px 0;
+  -webkit-border-radius: 0px!important;
   overflow: hidden
 }
 
@@ -16879,7 +16879,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 0px!important;
     overflow: hidden
   }
 
@@ -16902,7 +16902,7 @@ input[type=text] {
     width: 718px;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 0px!important;
     overflow: hidden
   }
 
