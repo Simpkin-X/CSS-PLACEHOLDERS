@@ -22,24 +22,9 @@
 }
 
 #main-navigation .top-menu-name-wrapper>span.has-link>a {
-  color: white !important;
+  color: #3b1e70 !important;
 }
 
-.header #union-logo {
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
-  background-image: url('https://s3-eu-west-1.amazonaws.com/nusdigital/image/images/268399/original/KU_LGBT_2021_black.png')
-}
-
-.header #union-logo h1 {
-  max-height: 90px;
-  opacity: 0;
-  max-width: 220px;
-  text-align: center;
-  margin: auto;
-  background-image: url('https://nusdigital.s3-eu-west-1.amazonaws.com/document/documents/43839/641f6ea34d4c3cab9febf7a5e730248e/UnionKingstonStudents-Land-RGB-Purple.png')
-}
 
 .social-icons {
   display: none;
@@ -112,7 +97,7 @@ img:after {
 
 .menu, .header, .top, .top-union {
   width: 100%;
-  background: transparent;
+  background: #3b1e70;
 }
 
 .header-wrap, .menu-wrap, .content {
@@ -475,7 +460,7 @@ html body {
   padding: 0;
   font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
-  background-color: #3b1e70
+  background-color: #cec1d70
 }
 
 .menu.sticky {
@@ -516,7 +501,7 @@ html body {
 }
 
 .menu ul li span.no-link {
-  color: #ffffff;
+  color: #3b1e70;
   padding: 15px 30px 15px 10px;
   font-size: 16px
 }
@@ -1533,7 +1518,7 @@ h3 {
   padding: 10px 0 0 10px;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   overflow: hidden
 }
 
@@ -1911,7 +1896,7 @@ h3 {
   padding: 10px 0 0 10px;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   overflow: hidden
 }
 
@@ -2514,7 +2499,7 @@ h3 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   padding: 20px
 }
 
@@ -2593,7 +2578,7 @@ h3 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   padding: 10px
 }
 
@@ -2684,8 +2669,7 @@ h3 {
   font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 28px;
-  margin-bottom: 10px;
-  margin-top:0px!important;
+  margin-bottom: 10px
 }
 
 .content .row .content-wrap h4 {
@@ -5297,7 +5281,7 @@ html ul.tabs li.active a:hover {
   background: #fff;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
@@ -5619,8 +5603,7 @@ fieldset.group-questions-form {
 }
 
 #memberShipDisplay .memberShipType h2 {
-  background: none repeat scroll 0 0 #3b1e70;
-  color: white!important;
+  background: none repeat scroll 0 0 #3b1e70
 }
 
 #memberShipDisplay .memberShipType .membershipDescription {
@@ -6228,7 +6211,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
 #registration-form-container .final-thank-you-msg {
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   border: solid thin;
   padding: 20px
 }
@@ -6646,7 +6629,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
   background: #ffffff;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
@@ -6710,7 +6693,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   overflow: hidden;
   border: 0;
   border-bottom: solid 2px #3b1e70;
@@ -6736,7 +6719,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
 .uc-widget-upcoming-events-wrapper #uc-widget-upcoming-events-right-panel .uc-widget-upcoming-event-row .upcoming-event-container .event-banner>img {
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -6874,7 +6857,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
   font-size: 15px;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   overflow: hidden
 }
 
@@ -7044,8 +7027,8 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
 }
 
 .slider .uc-slider-wrapper .uc-rslides {
-  background: none!important;
-  padding-bottom: 0px!important;
+  background: url(https://d2wcds7obmglv2.cloudfront.net/assets/onevoice_default/images/slider-shadow-9eeee300d84f5d26d11ebc97e5d25819b832ce43316f7e4e46c0a0bd07cf9bb9.png) no-repeat scroll bottom center transparent;
+  padding-bottom: 20px
 }
 
 .slider .uc-slider-wrapper .uc-slider-banner {
@@ -7086,7 +7069,7 @@ div.change-password #user_edit .formrow label, .registration-form ol li.input la
   margin: auto auto !important;
   margin-top: 5px !important;
   z-index: 9;
-  margin-bottom: 0px !important;
+  margin-bottom: 50px !important
 }
 
 .slider .uc-slider-wrapper ul.centered-btns_tabs li.jcarousel-item {
@@ -14917,7 +14900,7 @@ input[type=text] {
   }
 
   .grid-carousel {
-    height: auto!important;
+    height: 296px;
     margin: 10px 4%;
     position: static;
     width: 92%
@@ -16860,7 +16843,7 @@ input[type=text] {
   width: 940px;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   overflow: hidden
 }
 
@@ -16871,7 +16854,7 @@ input[type=text] {
   overflow: hidden;
   border-radius: 20px 0 20px 0;
   -moz-border-radius: 20px 0 20px 0;
-  -webkit-border-radius: 0px!important;
+  -webkit-border-radius: 20px 0 20px 0;
   overflow: hidden
 }
 
@@ -16887,7 +16870,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -16910,7 +16893,7 @@ input[type=text] {
     width: 718px;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -16974,7 +16957,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -16985,7 +16968,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -16996,7 +16979,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17007,7 +16990,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17018,7 +17001,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17029,7 +17012,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 }
@@ -17040,7 +17023,7 @@ input[type=text] {
     width: 610px;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17054,7 +17037,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17064,7 +17047,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17074,7 +17057,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17084,7 +17067,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17094,7 +17077,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17104,7 +17087,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17114,7 +17097,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17125,7 +17108,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17136,7 +17119,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17147,7 +17130,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17158,7 +17141,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17169,7 +17152,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17180,7 +17163,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17191,7 +17174,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
   
@@ -17212,7 +17195,7 @@ input[type=text] {
     width: 450px;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17222,7 +17205,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17232,7 +17215,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17242,7 +17225,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17252,7 +17235,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17262,7 +17245,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17272,7 +17255,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17282,7 +17265,7 @@ input[type=text] {
     position: relative;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17293,7 +17276,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17304,7 +17287,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17315,7 +17298,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17326,7 +17309,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17337,7 +17320,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17348,7 +17331,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
@@ -17359,7 +17342,7 @@ input[type=text] {
     overflow: hidden;
     border-radius: 20px 0 20px 0;
     -moz-border-radius: 20px 0 20px 0;
-    -webkit-border-radius: 0px!important;
+    -webkit-border-radius: 20px 0 20px 0;
     overflow: hidden
   }
 
