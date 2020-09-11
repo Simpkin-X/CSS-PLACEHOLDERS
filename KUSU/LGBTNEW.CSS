@@ -697,12 +697,13 @@ span.success, p.success {
 
 #footer p {
   font-family: "Museo Sans" !important;
-  line-height: 1rem;
+  line-height: 1.8rem;
   text-decoration: none!important;
 }
 
 #footer {
   font-family: "Museo Sans";
+  text-decoration: none!important;
 }
 
 .bottom, .bottom-union {
