@@ -693,6 +693,7 @@ span.success, p.success {
 #footer a {
   color: #cec1d7;
   font-family: "Museo Sans";
+  text-decoration: none!important
 }
 
 #footer p {
