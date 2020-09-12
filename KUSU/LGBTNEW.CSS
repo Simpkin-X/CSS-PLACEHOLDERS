@@ -730,7 +730,7 @@ h3 {
 
 .bottom .bottom-wrap, .bottom .bottom-union-wrap, .bottom-union .bottom-wrap, .bottom-union .bottom-union-wrap {
   margin: 0 auto;
-  width: 855pt!important;
+  width: 855pt;
 }
 
 .bottom .section h2, .bottom-union .section h2 {
@@ -3049,6 +3049,11 @@ h1 span {
 
 .addthis_toolbox .addthis_button_tweet {
   float: left
+}
+
+@media only screen and (max-width: 767px)
+.event-details-wrapper .left-nav-content .thumbnail .selected a img {
+    width: 50%;
 }
 
 .event-details-wrapper .left-nav-content {
