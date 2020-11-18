@@ -26,6 +26,136 @@
     padding-top: 0px!important;
 }
 }
+.acc {
+  border-top: 1px solid rgba(59, 30, 112, 1)
+}
+
+.acc .acc-title {
+  clear: both;
+  overflow: hidden;
+  cursor: pointer;
+  padding-top: 15px
+}
+
+.acc .acc-content {
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  padding: 0;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  border-top: 1px solid rgba(59, 30, 112, 1);
+  transition: max-height 0.3s ease-out, opacity 0.3s linear
+}
+
+.acc .acc-content.active {
+  opacity: 1;
+  max-height: 120em;
+  transition: max-height 0.4s ease-in, opacity 0.3s linear
+}
+
+.acc .acc-content.active {
+  max-height: 10000px
+}
+
+.acc .acc-content p {
+  padding-top: 10px
+}
+
+.content .row .content-wrap .acc .acc-title p {
+  min-height: 30px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "gwr", Arial, Helvetica, sans-serif;
+  width: calc(100% - 50px)
+}
+
+.acc .closed .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg)
+}
+
+.acc .closed .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  opacity: 1
+}
+
+.acc .opened {
+  opacity: 1
+}
+
+.acc .opened .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg)
+}
+
+.acc .opened .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+  opacity: 0
+}
+
+.acc .circle-plus {
+  height: 30px;
+  width: 30px;
+  font-size: 1em;
+  float: left;
+  margin-top: 15px
+}
+
+.acc .circle-plus .circle {
+  position: relative
+}
+
+.acc .circle-plus .circle .horizontal {
+  position: absolute;
+  background-color: #000000;
+  width: 20px;
+  height: 4px;
+  left: 50%;
+  margin-left: -10.5px;
+  top: 50%;
+  margin-top: -1.5px
+}
+
+.acc .circle-plus .circle .vertical {
+  position: absolute;
+  background-color: #000000;
+  width: 4px;
+  height: 20px;
+  left: 50%;
+  margin-left: -2.5px;
+  top: 50%;
+  margin-top: -9.5px
+}
+
+.acc-button {
+  font-family: gwb !important;
+  background-color: #eee220;
+  border: none !important;
+  color: #3c3c3c;
+  padding: 15px 32px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  margin: auto;
+  width: 20% !important
+}
+
+@media screen and (max-width:767px) {
+  .acc-button {
+    width: 70% !important
+  }
+}
+
+.acc-button:hover {
+  background-color: #3c3c3c !important;
+  color: white !important
+}
 
 @media screen and (min-width: 768px) {
 .cart-account {
