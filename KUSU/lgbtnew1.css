@@ -1,0 +1,542 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: "300";
+  src: url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museosans-100-webfont-906f85037c3ad5b1bc7bd2daae9d875aa0506997c594821a09cff127764df4e0.woff2) format("woff2"), url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museosans-100-webfont-1fc094c5960906ac35dff1e334ca17b3ea0ba64c9a1bc12b69ee732e56fcef6d.woff) format("woff"), url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museosans-100-webfont-815bf7a864fe5ef67eec145fbe45ce7dbb0765135a7596c858c787fc8efbfd6c.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: "700";
+  src: url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museosans-300-webfont-c450cbdb8bb3dd5bd28bf0d4e54966f01f2f3eddc962453e0856a51a6a718832.woff2) format("woff2"), url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museosans-300-webfont-098494fb0d59f338538b6b7a0b2a5763fc2f0c300535a11d73d4c345a648ae06.woff) format("woff"), url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museosans-300-webfont-5ef52220fbdb0a43ff19dd2c248747416650bb3e2906a9a6d487d0607d934acf.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Museo Slab";
+  font-style: normal;
+  font-weight: "900";
+  src: url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museo_slab_1000-webfont-50152165f22bd357e590f4054870974b13eb9e786f687fb7ade64b242416c619.woff2) format("woff2"), url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museo_slab_1000-webfont-d50a5478a7fc0b254ca77d1041270e465156b892f888af5a3585fbb99610dc12.woff) format("woff"), url(https://d2wcds7obmglv2.cloudfront.net/assets/kusu_default/fonts/museo_slab_1000-webfont-660a95dc2bd42cc9814d23ff610e18c46c51ee32603a76f8dc81a594fcfb3c59.ttf) format("truetype");
+}
+
+@media screen and (min-width: 768px) {
+.wrapper {
+    padding-top: 0px!important;
+}
+}
+
+@media screen and (min-width: 768px) {
+.cart-account {
+    position: static;
+    width: 32.4rem;
+    margin: 3.5rem 0 1.35rem;
+}
+}
+
+.cart-account .profile-setting .profile-name-wrapper {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    height: 2.7rem;
+}
+
+.profile-name-wrapper {
+    /* background: #e7e7e7; */
+    box-shadow: none!important;
+    -webkit-border-radius: 0px!important;
+}
+
+.tab h2 {
+  display: none
+}
+
+.tab .ui-widget {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px
+}
+
+.tab .ui-widget-content {
+  border: 0 solid #AAAAAA;
+  color: #222222;
+  padding: 0;
+  background: none;
+}
+
+.tab.ui-widget .ui-widget {
+  font-size: 13px
+}
+
+.tab .ui-widget-header {
+  background: none;
+  border-color: #E3E3E3;
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border-style: solid;
+  border-width: 0 0 0;
+  color: #222222;
+  font-size: 13px;
+  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0
+}
+
+.tab .ui-tabs .tab-content-wrapper-box {
+  min-height: auto !important;
+}
+
+.tab .ui-tabs .ui-tabs-nav li {
+  padding: 4px 0 3px;
+  margin: 0px 5px 0 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  outline: 0
+}
+
+.tab .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+  padding: 4px 0 3px;
+  margin-bottom: 0px
+}
+
+.tab .ui-tabs .ui-tabs-nav li.teal-color a {
+  background: none repeat scroll 0 0 transparent;
+  border-style: solid;
+  border-width: 0 0 3px;
+  color: #008E7C;
+  margin-bottom: 11px;
+  margin-left: 35px
+}
+
+.tab .ui-tabs .ui-tabs-nav li.astral-color a {
+  background: none repeat scroll 0 0 transparent;
+  border-style: solid;
+  border-width: 0 0 3px;
+  color: #3177B1;
+  margin-bottom: 11px;
+  margin-left: 5px
+}
+
+.tab .ui-tabs .ui-tabs-nav li.violet-red-color a {
+  background: none repeat scroll 0 0 transparent;
+  border-style: solid;
+  border-width: 0 0 3px;
+  color: #F42F93;
+  margin-bottom: 11px;
+  margin-left: 5px
+}
+
+.tab .ui-tabs .ui-tabs-nav li.java-color a {
+  background: none repeat scroll 0 0 transparent;
+  border-style: solid;
+  border-width: 0 0 3px;
+  color: #12C9C7;
+  margin-bottom: 11px;
+  margin-left: 5px
+}
+
+.tab .ui-tabs .ui-tabs-panel {
+  background: #FFF;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tab .ui-state-default, .tab .ui-widget-content .ui-state-default, .tab .ui-widget-header .ui-state-default {
+  background: #3b1e70;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #3b1e70;
+  color: #666666;
+  font-weight: normal;
+  margin: 0px 15px 0 0;
+  padding: 5px 0
+}
+
+.tab .ui-state-active, .tab .ui-widget-content .ui-state-active, .tab .ui-widget-header .ui-state-active {
+  background: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #3b1e70;
+  color: #3b1e70;
+  font-weight: bold;
+  padding: 5px 0
+}
+
+.tab .ui-state-active a {
+  padding-right: 0px;
+  background: transparent;
+  outline: none;
+  border: 0 none;
+  color: #3b1e70
+}
+
+.tab .tab-content h2 {
+  display: none
+}
+.column .ui-tabs .ui-tabs-nav li {
+  font-size: 16px
+}
+
+.tab-content.ui-tabs-panel .list .thumbnail-image {
+  float: none;
+  width: auto
+}
+
+.jcarousel-skin-tango .jcarousel-item.one-by-one {
+  width: 148px;
+  height: 148px;
+  position: relative;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.jcarousel-skin-tango .jcarousel-item.two-by-two {
+  width: 296px;
+  height: 296px;
+  position: relative;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.jcarousel-skin-tango .jcarousel-item.two-by-one {
+  width: 148px;
+  height: 296px;
+  position: relative;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.jcarousel-skin-tango .jcarousel-item.two-by-three {
+  width: 444px;
+  height: 296px;
+  position: relative;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.jcarousel-skin-tango .jcarousel-item.two-by-four {
+  width: 592px;
+  height: 296px;
+  position: relative;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.jcarousel-item:hover .uc-banner-hover {
+  display: block
+}
+
+.uc-banner-hover {
+  width: 100%;
+  bottom: auto;
+  display: none;
+  background: rgba(87, 39, 115, 0.5)
+}
+
+.grid-carousel {
+  position: static;
+  /* margin: 20px 2% 0; */
+  /* width: 96%; */
+  /* height: 320px; */
+  background: white !important;
+  height: 296px !important;
+  padding-bottom: 1rem;
+}
+
+.grid-carousel a {
+  display: block;
+  position: relative;
+  width: 140px;
+  height: 170px;
+  text-decoration: none
+}
+
+.grid-carousel .one-by-one .grid-one-by-one a, .grid-carousel .one-by-one .grid-two-by-one a, .grid-carousel .one-by-one .grid-two-by-two a, .grid-carousel .one-by-one .grid-two-by-three a, .grid-carousel .one-by-one .grid-two-by-four a {
+  width: 148px;
+  height: 148px;
+  background: #cccccc;
+  overflow: hidden;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.grid-carousel .two-by-one .grid-two-by-one a {
+  width: 148px;
+  height: 296px;
+  background: #cccccc;
+  overflow: hidden;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.grid-carousel .two-by-two span.page-title {
+  bottom: 0;
+  color: #582c72;
+  display: block;
+  font-size: 32px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  background: rgba(87, 39, 115, 0.05)
+}
+
+.grid-carousel .two-by-two .grid-two-by-two a {
+  width: 296px;
+  height: 296px;
+  background: #cccccc;
+  overflow: hidden
+}
+
+.grid-carousel .two-by-three .grid-two-by-three a {
+  width: 444px;
+  height: 296px;
+  background: #cccccc;
+  overflow: hidden;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.grid-carousel .two-by-four .grid-two-by-four a {
+  width: 592px;
+  height: 296px;
+  background: #cccccc;
+  overflow: hidden;
+  border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -webkit-border-radius: 0px !important;
+  overflow: hidden
+}
+
+.grid-carousel .jcarousel-skin-tango .jcarousel-item-horizontal:last-child {
+  margin-right: 0
+}
+
+.grid-carousel .jcarousel-skin-tango .jcarousel-item-horizontal {
+  margin-right: 10px !important;
+}
+
+.grid-carousel a span.thumbnail-image {
+  width: 100%;
+  display: block;
+  margin: 0;
+  float: none
+}
+
+.grid-carousel a span.page-details {
+  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  width: auto;
+  background-color: rgba(87, 39, 115, 0.5);
+  bottom: 0;
+  text-align: left
+}
+
+.grid-carousel a span.page-details .page-title {
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  padding: 10px 5px
+}
+
+.grid-carousel a span.page-details .custom-title {
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  padding: 10px 5px
+}
+
+.grid-carousel a span.page-details span.page-summary {
+  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  padding: 10px;
+  display: block
+}
+
+.tab .grid-carousel .jcarousel-skin-tango .jcarousel-next-horizontal {
+  border: 0;
+  height: 40px;
+  width: 34px;
+  margin-top: 0;
+  border-radius: 0
+}
+
+.tab .grid-carousel .jcarousel-skin-tango .jcarousel-prev-horizontal {
+  border: 0;
+  height: 40px;
+  width: 34px;
+  margin-top: 0;
+  border-radius: 0
+}
+
+.tab .grid-carousel .jcarousel-skin-tango .jcarousel-prev-horizontal:after {
+  margin-left: 6px
+}
+
+.tab .grid-carousel a span.page-details .page-title {
+  color: #ffffff;
+  display: block;
+  font-size: 1.0em;
+  font-weight: normal;
+  padding: 10px;
+  text-transform: none;
+  background: #cec1d7;
+  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-weight: normal
+}
+
+.tab .grid-carousel a span.page-details .custom-title {
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 5px;
+  text-transform: none;
+  display: none
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-prev-horizontal {
+  background: #3b1e70;
+  top: 53%;
+  border-radius: 0 15px 0 15px;
+  -moz-border-radius: 0 15px 0 15px;
+  -webkit-border-radius: 0 15px 0 15px
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-prev-horizontal:after {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 12px;
+  margin-top: 4px;
+  font-size: 45px;
+  color: #fff
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-next-horizontal {
+  background: #3b1e70;
+  top: 53%;
+  border-radius: 15px 0 15px 0;
+  -moz-border-radius: 15px 0 15px 0;
+  -webkit-border-radius: 15px 0 15px 0
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-next-horizontal:after {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 13px;
+  margin-top: 4px;
+  font-size: 45px;
+  color: #fff
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .stripe .jcarousel-skin-tango .jcarousel-next-disabled-horizontal {
+  display: none !important
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-prev-horizontal, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal {
+  top: 30%
+}
+
+.stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal, .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal:hover, .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal:focus, .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal:active, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal:hover, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal:focus, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal:active {
+  background: none;
+  cursor: default; 
+}
+.grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
+  background: #cec1d7;
+  left: -5px;
+  top: 53%
+}
+
+.grid .jcarousel-skin-tango .jcarousel-prev-horizontal:after {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 12px;
+  margin-top: -4px;
+  font-size: 45px;
+  color: #fff
+}
+
+.grid .jcarousel-skin-tango .jcarousel-next-horizontal {
+  background: #cec1d7;
+  right: -5px;
+  top: 53%
+}
+
+.grid .jcarousel-skin-tango .jcarousel-next-horizontal:after {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-weight: normal;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 12px;
+  margin-top: -4px;
+  font-size: 45px;
+  color: #fff
+}
+
+.grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus, .grid .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+  cursor: default;
+  background: url(https://d2wcds7obmglv2.cloudfront.net/assets/onevoice_default/images/disabled-grid-arrows-18263763b8346f22ca5c3c537f8d18daf8ef6ea1b8fa126d9b458bccc36ab77c.png) no-repeat scroll 0 -81px transparent;
+  width: 55px;
+  height: 75px;
+  border: 0 none;
+  right: -15px
+}
+
+.grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus, .grid .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+  cursor: default;
+  background: url(https://d2wcds7obmglv2.cloudfront.net/assets/onevoice_default/images/disabled-grid-arrows-18263763b8346f22ca5c3c537f8d18daf8ef6ea1b8fa126d9b458bccc36ab77c.png) no-repeat scroll 0 0px transparent;
+  width: 55px;
+  height: 75px;
+  border: 0 none;
+  right: -15px
+}
+
+.grid .jcarousel-skin-tango .jcarousel-container-horizontal {
+  position: static !important;
+  padding: 0.5rem !important;
+}
