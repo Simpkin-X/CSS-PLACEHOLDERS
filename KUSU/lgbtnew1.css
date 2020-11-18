@@ -145,7 +145,7 @@
 }
 
 .tab .ui-state-default, .tab .ui-widget-content .ui-state-default, .tab .ui-widget-header .ui-state-default {
-  background: #3b1e70;
+  background: #3b1e70!important;!important;
   border-width: 2px;
   border-style: solid;
   border-color: #3b1e70;
@@ -423,7 +423,7 @@
 }
 
 .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal {
-  background: #3b1e70;
+  background: #3b1e70!important;!important;;
   top: 53%;
   border-radius: 0 15px 0 15px;
   -moz-border-radius: 0 15px 0 15px;
@@ -445,7 +445,7 @@
 }
 
 .stripe .jcarousel-skin-tango .jcarousel-next-horizontal {
-  background: #3b1e70;
+  background: #3b1e70!important;;
   top: 53%;
   border-radius: 15px 0 15px 0;
   -moz-border-radius: 15px 0 15px 0;
