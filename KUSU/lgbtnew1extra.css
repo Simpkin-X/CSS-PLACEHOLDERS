@@ -181,3 +181,59 @@
   margin: 0 25px;
   text-align: center
 }
+  .grid-carousel .one-by-one .grid-one-by-one a, .grid-carousel .one-by-one .grid-two-by-one a, .grid-carousel .one-by-one .grid-two-by-two a, .grid-carousel .one-by-one .grid-two-by-three a, .grid-carousel .one-by-one .grid-two-by-four a {
+    width: 50px;
+    height: 50px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel .two-by-one .grid-two-by-one a {
+    width: 50px;
+    height: 100px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel .two-by-two .grid-two-by-two a {
+    width: 100px;
+    height: 100px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel .two-by-three .grid-two-by-three a {
+    width: 150px;
+    height: 100px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel .two-by-four .grid-two-by-four a {
+    width: 200px;
+    height: 100px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel .two-by-five .grid-two-by-five a {
+    width: 250px;
+    height: 100px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel .two-by-six .grid-two-by-six a {
+    width: 290px;
+    height: 100px;
+    background: #cccccc;
+    overflow: hidden
+  }
+
+  .grid-carousel {
+    height: 100px
+  }
+
+  .grid-carousel ul {
+    height: 100px
+  }
