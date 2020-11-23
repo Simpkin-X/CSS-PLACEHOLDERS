@@ -210,7 +210,7 @@
   border-width: 0 0 0;
   color: #222222;
   font-size: 13px;
-  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   padding: 0
 }
@@ -275,7 +275,7 @@
 }
 
 .tab .ui-state-default, .tab .ui-widget-content .ui-state-default, .tab .ui-widget-header .ui-state-default {
-  background: #3b1e70!important;!important;
+  background: #3b1e70!important;
   border-width: 2px;
   border-style: solid;
   border-color: #3b1e70;
@@ -425,7 +425,7 @@
   position: absolute;
   right: 0;
   z-index: 1000;
-  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   background: rgba(87, 39, 115, 0.05)
 }
@@ -475,7 +475,7 @@
 }
 
 .grid-carousel a span.page-details {
-  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   bottom: 0;
   left: 0;
@@ -503,7 +503,7 @@
 }
 
 .grid-carousel a span.page-details span.page-summary {
-  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal;
   color: #ffffff;
   padding: 10px;
@@ -538,7 +538,7 @@
   padding: 10px;
   text-transform: none;
   background: #cec1d7;
-  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-family: "Museo Sans", Arial, Helvetica, sans-serif;
   font-weight: normal
 }
 
@@ -606,7 +606,7 @@
 
 .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal, .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal:hover, .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal:focus, .stripe .jcarousel-skin-tango .jcarousel-prev-horizontal.jcarousel-prev-disabled-horizontal:active, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal:hover, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal:focus, .stripe .jcarousel-skin-tango .jcarousel-next-horizontal.jcarousel-next-disabled-horizontal:active {
   background: none;
-  cursor: default; 
+  cursor: default;
 }
 .grid .jcarousel-skin-tango .jcarousel-prev-horizontal {
   background: #cec1d7;
@@ -704,9 +704,30 @@
     font-weight: bold;
     padding: 5px 0;
 }
+
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
   color: white;
 }
 .ui-tabs .ui-tabs-nav {
   padding: 0px!important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #3b1e70;
+    font-weight: 400;
+    font-family: "Museo Sans";
+    font-size: 1.8rem;
+    line-height: 1.25;
+    margin: 0 0 1.35rem;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: none;
+}
+
+h3 {
+    font-size: 2.592rem;
+    letter-spacing: .03em;
+    font-family: "Museo Sans", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 100;
+    margin: 0px!important;
 }
