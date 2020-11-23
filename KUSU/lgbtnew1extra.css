@@ -112,3 +112,72 @@
 .home-content-html .content>div, .page-content-html .content>div, .sub-site-home-html .wrapper>.content {
  width: 100%!important;
 }
+
+.stripe .jcarousel-skin-tango .jcarousel-clip-horizontal {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.stripe .stripe-carousel ul {
+  height: auto !important;
+}
+
+.stripe .stripe-wrap li {
+  margin: 40px 0px;
+}
+
+.stripe .stripe-wrap a {
+  height: 100%;
+  width: 100%;
+  display: block
+}
+
+.stripe .stripe-wrap a span.thumbnail-image {
+  display: block;
+  float: none;
+  font-size: 13px;
+  margin: 0 auto;
+  width: 125px;
+  height: 125px;
+  padding: 0;
+  background: #fff;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0x;
+  overflow: hidden;
+}
+
+.stripe .stripe-wrap a span.thumbnail-image img {
+  width: 95%;
+  height: 95%;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0x;
+}
+
+.stripe .stripe-wrap a span.page-details {
+  font-size: 14px;
+  float: none;
+  font-family: "Museo Slab", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0;
+  line-height: 13px
+}
+
+.stripe .stripe-wrap a span.page-details .page-title {
+  color: #3b1e70;
+  display: block;
+  font-size: 16px;
+  margin: 15px 25px 0;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.stripe .stripe-wrap a span.page-details .page-summary {
+  color: #999999;
+  display: block;
+  font-size: 13px;
+  line-height: 19px;
+  margin: 0 25px;
+  text-align: center
+}
